@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/yummi-api-preview/static/css/main.7acaea2f.css",
-    "main.js": "/yummi-api-preview/static/js/main.07d3183d.js",
+    "main.js": "/yummi-api-preview/static/js/main.f25b061a.js",
+    "static/media/pexels-lukas-616401.jpg": "/yummi-api-preview/static/media/pexels-lukas-616401.bb9c6985de621a708e87.jpg",
     "index.html": "/yummi-api-preview/index.html",
     "main.7acaea2f.css.map": "/yummi-api-preview/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/yummi-api-preview/static/js/main.07d3183d.js.map"
+    "main.f25b061a.js.map": "/yummi-api-preview/static/js/main.f25b061a.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/js/main.f25b061a.js"
   ]
 }
