@@ -2,23 +2,19 @@ import { Button } from '@mui/material';
 import background from '../images/pexels-lukas-616401.jpg';
 import { ColorRing } from 'react-loader-spinner';
 import { useState } from 'react';
-import Notiflix from 'notiflix';
 
 export const App = () => {
   const [spinner, setSpinner] = useState(false);
 
   const handleDocsButton = () => {
-    setSpinner(true)(
-      (window.location.href = 'https://yummy-pet-project.onrender.com/api-docs')
-    );
+    setSpinner(true);
+    window.location.href = 'https://yummy-pet-project.onrender.com/api-docs';
   };
 
   const handleReadMeButton = () => {
-    Notiflix.Notify.warning('Under constraction', {
-      timeout: 6000,
-      fontSize: '20px',
-      position: 'center-top',
-    });
+    setSpinner(true);
+    window.location.href =
+      'https://github.com/OleksandrKochenko/yami-backend/blob/main/README.md';
   };
 
   return (
